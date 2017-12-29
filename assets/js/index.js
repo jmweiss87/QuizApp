@@ -86,7 +86,7 @@ function runQuiz(){
   $('#question-page').show();
   $('#question-form').html('');
   let currentQuestion = CONTENT.questions[CONTENT.currentQuestionNumber];
-  // currentQuestion is accessing the array (question) using the number from currentQuestionNumber 
+  // currentQuestion is accessing the array (question) using the number(index) from currentQuestionNumber 
   console.log(currentQuestion);
   console.log('runQuiz a go');
   // $('#question-form').text(currentQuestion.question);
