@@ -19,12 +19,12 @@ const CONTENT={
           },
           {
           question:'What two teams have made it to the CFP Champsionship game twice?',
-          answers:['Alabama and Clemson','Oregon and Georgia','Oklahoma and Clemson','South Carolina and Tennessee'],
+          answers:['Oregon and Georgia','Alabama and Clemson','Oklahoma and Clemson','South Carolina and Tennessee'],
           correctAnswer:'Alabama and Clemson'
           },
           {
           question:'Where will the championship game be played this year?',
-          answers:['Atlanta','Pasadena','Glendale','New Orleans'],
+          answers:['New Orleans','Pasadena','Glendale','Atlanta'],
           correctAnswer: 'Atlanta'
           },
           {
@@ -44,8 +44,8 @@ const CONTENT={
           },
           {
           question: 'In which state was the first CFP Champsionship played?',
-          answers:['Texas','Arizona','Florida','Georgia'],
-          correctAnswer: 'Georgia'
+          answers:['Florida','Arizona','Texas','Georgia'],
+          correctAnswer: 'Texas'
           },
           {
           question:'What conference has had the most cumulative team appearances, including this year, in the CFP?',
@@ -54,7 +54,7 @@ const CONTENT={
           },
           {
           question:'What Heisman trophy winner will be playing in the CFP this year?',
-          answers:['Baker Mayfield','Johnny Manziel','Deshaun Watson','Jalen Hurts'],
+          answers:['Deshaun Watson','Johnny Manziel','Baker Mayfield','Jalen Hurts'],
           correctAnswer:'Baker Mayfield'
           }],
           currentQuestionNumber: 0,
