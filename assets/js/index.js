@@ -154,7 +154,7 @@ function resultState(){
 
     if (CONTENT.currentQuestionNumber === CONTENT.questions.length){
       $('#feedback-correct').hide();
-      $('feedback-incorrect').hide();
+      $('#feedback-incorrect').hide();
       $('#js-result-number').append(`<p>Your score is ${CONTENT.correct} of 10!I hope you enjoyed the quiz!</p>`);
       $('#results-page').show();
       // reset the quiz here, reset the question counter, the correct and incorrect counters
