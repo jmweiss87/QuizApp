@@ -7,17 +7,12 @@ img{
 
 body{
   padding: 20px; 
-  /*remember this padding pushed in the content boxes!!*/
   background-image: url('https://ak8.picdn.net/shutterstock/videos/1408948/thumb/1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/*Need to size the pages appropriately before JS/jQuery*/
-/*Need solid background-color for my text area for questions/buttons etc*/
-
 .content-box{
-/*  height: 600px;*/
   text-align: center;
   border: 1px solid pink;
   background-color: #92a8d1;
@@ -69,27 +64,10 @@ label{
 .hidden{
   display: none;
 }
-  /*for my jQuery*/
 
 .quiz-start{
   color:black;
   background-color: red;
-}
-
-.quiz-start-page{
-  /*border: 2px solid red;*/
-}
-
-.question-box{
-  /*border: 2px solid orange;*/
-}
-
-.feedback-box{
-  /*border: 2px solid purple;*/
-}
-
-.quiz-results-page{
-  /*border: 2px solid blue;*/
 }
 
 #js-result-number{
