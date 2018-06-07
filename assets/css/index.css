@@ -24,7 +24,7 @@ body{
 }
 
 .content-box-questions{
-  height: 400px;
+  height: 424px;
   text-align: center;
   border: 1px solid pink;
   background-color: #92a8d1;
@@ -35,7 +35,7 @@ body{
 }
 
 .content-box-correct{
-  height: 400px;
+  height: 424px;
   text-align: center;
   border: 1px solid pink;
   background-color: teal;
@@ -46,7 +46,7 @@ body{
 }
 
 .content-box-incorrect{
-  height: 400px;
+  height: 424px;
   text-align: center;
   border: 1px solid pink;
   background-color: teal;
