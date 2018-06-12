@@ -89,7 +89,7 @@ function runQuiz(){
     $('#question-form').append(
       `
       <label class="answer">
-						<input type="radio" name="options" class="answer-selection" value="${answer}" required>
+						<input type="radio" name="options" class="answer-selection" aria-labelledby="radio-button-answers" value="${answer}" required>
 						<span class="js-quiz-option">"${answer}"</span>
 					</label>
           <br>
