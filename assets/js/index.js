@@ -100,8 +100,8 @@ function runQuiz(){
 }
 // have the id be not just a number, sting and number..element needs to match with ID.
 // add to the span, role= , or the input itself
-// add counter to forEach or, search nmber of inputs of type radio with name options and take that length and incorporate that 
-// 
+// add counter to forEach or, search nmber of inputs of type radio with name options and take that length 
+// and incorporate that
 
 function handleAnswer(){  
   $('#submit').on('click', function(event){

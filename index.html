@@ -29,10 +29,18 @@
       </section>
       
       <!-- section in question for ARIA -->
+      <!-- remember each arialabelledby group name, has to match with a surrounding id name...as scene div id=group1 -->
+      <!-- so added div id="group1" and then I have div aria-labelledby=group1..hopefully this satisfies -->
+      <!-- if it does not. step back, look at more examples, make it match the way they want it done. -->
+      <!-- do not fail to notice, that the group ID is in a div surrounding the form, the div w/ AriaLBB is currently
+      inside the form  -->
+      <!-- this presents NEW ISSUE: the JS .append is overwriting completely your div w/ arialabel=group1
+      As Mark said, this may require some restructuring. np. -->
+      
       <section role="region" class="question-box" id="question-page">
         <div class="row">
           <div class="col-12">
-            <div class="content-box-questions"><h1>Test your CFP knowledge!</h1>
+            <div id="group1" class="content-box-questions"><h1>Test your CFP knowledge!</h1>
               <form id="question-form" class="question-form">
                 <div role="radiogroup" aria-labelledby="group1"></div>
               </form>
