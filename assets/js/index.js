@@ -88,8 +88,8 @@ function runQuiz(){
   currentQuestion.answers.forEach(function(answer){
     $('#question-form').append(
       `
-      <label class="answer">
-						<input type="radio" name="options" class="answer-selection" aria-labelledby="radio-button-answers" value="${answer}" required>
+      <label role="radiogroup" aria-labelledby="group-answers" class="answer">
+						<input type="radio" name="options" class="answer-selection" value="${answer}" required>
 						<span class="js-quiz-option">"${answer}"</span>
 					</label>
           <br>
