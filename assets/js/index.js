@@ -85,18 +85,22 @@ function runQuiz(){
   console.log('runQuiz a go');
   $('#question-form').text(currentQuestion.question);
   $('#question-form').append('<br>');
-  currentQuestion.answers.forEach(function(answer){
+  // let newCounter = CONTENT.questions.currentQuestionNumber;
+  currentQuestion.answers.forEach(function(answer, index){
     $('#question-form').append(
       `
-      <label role="radiogroup" aria-labelledby="group-answers" class="answer">
+      <label class="answer">
 						<input type="radio" name="options" class="answer-selection" value="${answer}" required>
-						<span class="js-quiz-option">"${answer}"</span>
+						<span role="radio" aria-labelledby="${index}" class="js-quiz-option">"${answer}"</span>
 					</label>
           <br>
       `      
       )   
   });
 }
+// add to the span, role= , or the input itself
+// add counter to forEach or, search nmber of inputs of type radio with name options and take that length and incorporate that 
+// 
 
 function handleAnswer(){  
   $('#submit').on('click', function(event){
