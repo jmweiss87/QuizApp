@@ -89,15 +89,16 @@ function runQuiz(){
   currentQuestion.answers.forEach(function(answer, index){
     $('#question-form').append(
       `
-      <label class="answer">
+      <label id="response-${index}" class="answer">
 						<input type="radio" name="options" class="answer-selection" value="${answer}" required>
-						<span role="radio" aria-labelledby="${index}" class="js-quiz-option">"${answer}"</span>
+						<span role="radio" aria-labelledby="response-${index}" class="js-quiz-option">"${answer}"</span>
 					</label>
           <br>
       `      
       )   
   });
 }
+// have the id be not just a number, sting and number..element needs to match with ID.
 // add to the span, role= , or the input itself
 // add counter to forEach or, search nmber of inputs of type radio with name options and take that length and incorporate that 
 // 
